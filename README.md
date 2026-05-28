@@ -57,7 +57,7 @@ motto:     "Straight to the solution — no detours."
     <td width="50%" valign="top">
       <h3>🧪 <a href="https://github.com/NoiXdev">NoiX</a></h3>
       <p><strong>A small dev label. Two devs. Ship small things.</strong></p>
-      <p>Tooling, prototypes and weekend projects — no roadmaps, no meetings. Currently shipping <a href="https://github.com/NoiXdev/inventorix">Inventorix</a>, a self-hostable inventory management app built on Laravel&nbsp;13 + Filament&nbsp;5.</p>
+      <p>Tooling, prototypes and weekend projects — no roadmaps, no meetings. Just shipping small things.</p>
       <p>
         🌐 <a href="https://www.noix.dev">noix.dev</a><br>
         ✉️ hello@noix.dev
@@ -71,16 +71,29 @@ motto:     "Straight to the solution — no detours."
 ## 📊 GitHub Stats
 
 <p align="center">
-  <img height="165" src="https://github-readme-stats.vercel.app/api?username=noidee-dev&show_icons=true&include_all_commits=true&count_private=true&hide_border=true&theme=tokyonight" alt="Stats">
-  <img height="165" src="https://github-readme-stats.vercel.app/api/top-langs/?username=noidee-dev&layout=compact&langs_count=8&hide_border=true&theme=tokyonight" alt="Top Languages">
+  <img src="https://img.shields.io/github/followers/noidee-dev?label=Followers&style=for-the-badge&color=0a0a0a&logo=github" alt="Followers">
+  <img src="https://img.shields.io/badge/Pro-account-22c55e?style=for-the-badge&logo=github" alt="Pro">
+  <img src="https://img.shields.io/badge/Location-Germany-FFCC00?style=for-the-badge&logo=googlemaps&logoColor=white" alt="Location">
+</p>
+
+<!-- Generiert via GitHub Action: .github/workflows/profile-summary-cards.yml -->
+<p align="center">
+  <img height="180" src="./profile-summary-card-output/tokyo-night/0-profile-details.svg" alt="Profile Details">
+  <img height="180" src="./profile-summary-card-output/tokyo-night/3-stats.svg" alt="Stats">
 </p>
 
 <p align="center">
-  <img src="https://streak-stats.demolab.com?user=noidee-dev&hide_border=true&theme=tokyonight" alt="Streak">
+  <img height="180" src="./profile-summary-card-output/tokyo-night/1-repos-per-language.svg" alt="Repos per Language">
+  <img height="180" src="./profile-summary-card-output/tokyo-night/2-most-commit-language.svg" alt="Most Commit Language">
+  <img height="180" src="./profile-summary-card-output/tokyo-night/4-productive-time.svg" alt="Productive Time">
 </p>
 
 <p align="center">
-  <img src="https://github-profile-trophy.vercel.app/?username=noidee-dev&theme=tokyonight&no-frame=true&column=7&margin-w=8" alt="Trophies">
+  <img src="https://streak-stats.demolab.com?user=noidee-dev&hide_border=true&theme=tokyonight" alt="Streak Stats">
+</p>
+
+<p align="center">
+  <img src="https://github-readme-activity-graph.vercel.app/graph?username=noidee-dev&theme=tokyo-night&hide_border=true&area=true" alt="Activity Graph">
 </p>
 
 ---

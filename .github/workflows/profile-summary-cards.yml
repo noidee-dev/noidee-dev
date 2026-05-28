@@ -1,0 +1,33 @@
+name: GitHub Profile Summary Cards
+
+on:
+  # Manuell anstoßbar über die Actions-UI
+  workflow_dispatch:
+  # Täglich um 00:17 UTC neu generieren
+  schedule:
+    - cron: "17 0 * * *"
+  # Bei jedem Push auf main neu generieren
+  push:
+    branches:
+      - main
+
+permissions:
+  contents: write
+
+jobs:
+  build:
+    runs-on: ubuntu-latest
+    name: generate-summary-cards
+    steps:
+      - uses: actions/checkout@v4
+
+      - name: generate-github-profile-summary-cards
+        uses: vn7n24fzkq/github-profile-summary-cards@release
+        env:
+          # Standard-Token reicht für öffentliche Stats.
+          # Für mehr Detail (private Contribs etc.) ein eigenes PAT
+          # als Repo-Secret SUMMARY_CARDS_PAT hinterlegen und unten ersetzen.
+          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+        with:
+          USERNAME: ${{ github.repository_owner }}
+          UTC_OFFSET: 1
