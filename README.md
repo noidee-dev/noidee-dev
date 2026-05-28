@@ -78,14 +78,15 @@ motto:     "Straight to the solution — no detours."
 
 <!-- Generiert via GitHub Action: .github/workflows/profile-summary-cards.yml -->
 <p align="center">
-  <img height="180" src="./profile-summary-card-output/tokyo-night/0-profile-details.svg" alt="Profile Details">
-  <img height="180" src="./profile-summary-card-output/tokyo-night/3-stats.svg" alt="Stats">
+  <img src="./profile-summary-card-output/tokyonight/0-profile-details.svg" alt="Profile Details">
 </p>
-
 <p align="center">
-  <img height="180" src="./profile-summary-card-output/tokyo-night/1-repos-per-language.svg" alt="Repos per Language">
-  <img height="180" src="./profile-summary-card-output/tokyo-night/2-most-commit-language.svg" alt="Most Commit Language">
-  <img height="180" src="./profile-summary-card-output/tokyo-night/4-productive-time.svg" alt="Productive Time">
+  <img src="./profile-summary-card-output/tokyonight/3-stats.svg" alt="Stats">
+  <img src="./profile-summary-card-output/tokyonight/4-productive-time.svg" alt="Productive Time">
+</p>
+<p align="center">
+  <img src="./profile-summary-card-output/tokyonight/1-repos-per-language.svg" alt="Repos per Language">
+  <img src="./profile-summary-card-output/tokyonight/2-most-commit-language.svg" alt="Most Commit Language">
 </p>
 
 <p align="center">
